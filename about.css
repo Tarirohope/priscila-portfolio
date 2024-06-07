@@ -1,9 +1,47 @@
 img {
   border-radius: 10px;
-  width: 300px;
+  width: 400px;
   margin: 30px auto;
+}
+.about-section {
+  padding: 160px 20px;
+}
+.about-section-content {
+  margin: 30px;
 }
 .work-enquiry {
   background-color: rgb(249, 247, 254);
   border-radius: 6px;
+}
+.about-section h1 {
+  font-size: 64px;
+  line-height: 80px;
+}
+.about-section h2 {
+  font-size: 18px;
+}
+.technologies {
+  background-color: rgb(163, 163, 163);
+  margin: 10px auto;
+  padding: 40px;
+  border-radius: 6px;
+}
+.tech-stacks {
+  color: red;
+}
+@media (max-width: 900px) {
+  .about-section h1 {
+    font-size: 44px;
+    line-height: 1;
+  }
+  h2 {
+    font-size: 10px;
+  }
+  .about-section {
+    text-align: center;
+    padding: 0;
+  }
+  .technologies {
+    text-align: center;
+  }
 }
