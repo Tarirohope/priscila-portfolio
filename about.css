@@ -29,6 +29,14 @@ img {
 .tech-stacks {
   color: red;
 }
+.certificates h3 {
+  text-align: center;
+  color: greenyellow;
+  text-decoration: underline;
+}
+.imagetwo {
+  width: 40px;
+}
 @media (max-width: 900px) {
   .about-section h1 {
     font-size: 44px;
