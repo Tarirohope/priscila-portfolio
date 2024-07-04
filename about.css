@@ -1,5 +1,6 @@
 body {
-  font-family: "Poppins", sans-serif;
+  font-family: "Nunito", sans-serif;
+  font-size: auto;
   background-color: #fff6ee;
 }
 img {
@@ -42,8 +43,7 @@ img {
 .project {
   border: 1px solid grey;
   border-radius: 6px;
-  padding: 40px;
-  margin: 15px 15px;
+  padding: 20px;
 }
 .certificates h3 {
   text-align: center;
