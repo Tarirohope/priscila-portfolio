@@ -1,10 +1,17 @@
+.portfolio {
+  font-family: "Poppins", sans-serif;
+  background-color: #fff6ee;
+  margin: 30px auto;
+  border: 1px solid gray;
+  border-radius: 8px;
+}
 img {
   border-radius: 10px;
   width: 400px;
   margin: 30px auto;
 }
 .about-section {
-  padding: 160px 20px;
+  padding: 20px;
 }
 .about-section-content {
   margin: 30px;
@@ -20,11 +27,22 @@ img {
 .about-section h2 {
   font-size: 18px;
 }
+.project-link {
+  background-color: lightpink;
+  color: black;
+  text-align: center;
+  padding: 10px 5px;
+  border-radius: 50px;
+  text-decoration: none;
+  font-weight: 600;
+  width: 100%;
+}
 .technologies {
-  background-color: rgb(163, 163, 163);
+  background-color: #f0f1f3;
   margin: 10px auto;
-  padding: 40px;
+  padding: 10px;
   border-radius: 6px;
+  text-align: center;
 }
 .tech-stacks {
   color: red;
@@ -34,9 +52,56 @@ img {
   color: greenyellow;
   text-decoration: underline;
 }
-.imagetwo {
-  width: 40px;
+.javascript {
+  background-color: #ffd43b;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #183153;
 }
+.css {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #254bdd;
+}
+.html {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #e96228;
+}
+.bootstrap {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #7432f9;
+}
+.github {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #183153;
+}
+.python {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #183153;
+}
+.react {
+  background-color: white;
+  padding: 10px;
+  border-radius: 10px;
+  font-size: 30px;
+  color: #5ed3f3;
+}
+
 @media (max-width: 900px) {
   .about-section h1 {
     font-size: 44px;
