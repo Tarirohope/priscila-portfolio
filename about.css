@@ -49,8 +49,10 @@ img {
 }
 .certificates h3 {
   text-align: center;
-  color: greenyellow;
   text-decoration: underline;
+}
+.certificate {
+  width: 300px;
 }
 .javascript {
   background-color: #ffd43b;
