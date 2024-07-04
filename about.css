@@ -14,8 +14,9 @@ img {
 .about-section-content {
 }
 .work-enquiry {
-  background-color: rgb(249, 247, 254);
+  background-color: black;
   border-radius: 6px;
+  color: white;
 }
 .about-section h1 {
   font-size: 64px;
@@ -58,7 +59,10 @@ img {
   font-size: 30px;
   color: #183153;
 }
-.css {
+.css,
+.facebook,
+.linkedin,
+.twitter {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
@@ -79,7 +83,8 @@ img {
   font-size: 30px;
   color: #7432f9;
 }
-.github {
+.github,
+.instagram {
   background-color: white;
   padding: 10px;
   border-radius: 10px;
