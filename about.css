@@ -44,7 +44,7 @@ img {
   border: 1px solid grey;
   border-radius: 6px;
   padding: 20px;
-  margin: 5px;
+  margin: 5px 5px;
 }
 .certificates h3 {
   text-align: center;
