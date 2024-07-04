@@ -1,7 +1,6 @@
 .portfolio {
   font-family: "Poppins", sans-serif;
   background-color: #fff6ee;
-  margin: 30px auto;
   border: 1px solid gray;
   border-radius: 8px;
 }
@@ -35,7 +34,6 @@ img {
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
-  width: 100%;
 }
 .technologies {
   background-color: #f0f1f3;
@@ -44,8 +42,11 @@ img {
   border-radius: 6px;
   text-align: center;
 }
-.tech-stacks {
-  color: red;
+.project {
+  border: 1px solid grey;
+  border-radius: 6px;
+  padding: 40px;
+  margin: 15px 15px;
 }
 .certificates h3 {
   text-align: center;
@@ -116,5 +117,8 @@ img {
   }
   .technologies {
     text-align: center;
+  }
+  .project {
+    margin: 20px;
   }
 }
