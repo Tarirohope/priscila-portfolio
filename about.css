@@ -3,15 +3,33 @@ body {
   font-size: auto;
   background-color: #fff6ee;
 }
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: bolder;
+}
 img {
   border-radius: 10px;
-  width: 400px;
+  width: 250px;
+  margin: 30px auto;
+}
+.myself {
+  border-radius: 10px;
+  width: 350px;
   margin: 30px auto;
 }
 .about-section {
   padding: 20px;
 }
 .about-section-content {
+}
+.card {
+  width: 400px;
+  height: 450px;
+  margin: 10px 10px;
 }
 .work-enquiry {
   background-color: black;
@@ -29,7 +47,7 @@ img {
   background-color: lightpink;
   color: black;
   text-align: center;
-  padding: 10px 5px;
+  padding: 5px 5px;
   border-radius: 50px;
   text-decoration: none;
   font-weight: 600;
@@ -41,7 +59,7 @@ img {
   border-radius: 6px;
   text-align: center;
 }
-.project {
+project {
   border: 1px solid grey;
   border-radius: 6px;
   padding: 20px;
