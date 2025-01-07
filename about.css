@@ -65,13 +65,16 @@ project {
   padding: 20px;
   margin: 5px 5px;
 }
-.certificates h3 {
-  text-align: center;
-  text-decoration: underline;
-}
 .certificate {
   width: 300px;
 }
+.certificates {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+
+}
+
 .javascript {
   background-color: #ffd43b;
   padding: 10px;
@@ -125,6 +128,30 @@ project {
   font-size: 30px;
   color: #5ed3f3;
 }
+.hidden {
+  display: none;
+}
+
+.certificate-section {
+  margin: 20px 0;
+}
+
+#toggleCertificates {
+  background-color: lightpink;
+  color: white;
+  padding: 10px 20px;
+  border: lightpink;
+  border-radius: 6px;
+  cursor: pointer;
+  font-size: 16px;
+  align-self: center;
+  
+}
+
+#toggleCertificates:hover {
+  background-color: navy;
+}
+
 
 @media (max-width: 900px) {
   .about-section h1 {

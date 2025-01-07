@@ -37,6 +37,7 @@
     <title>Document</title>
   </head>
   <body>
+    <div class="container">
     <div class="container-fluid portfolio">
       <nav class="navbar navbar-expand-lg bg-pink position-relative">
         <div class="container-fluid">
@@ -116,19 +117,13 @@
           <div class="row d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                  <h4 class="card-title">Recipe landing page</h4>
-                  <img src="recipepage.png" alt="" class="img-fluid" />
+                  <h4 class="card-title">BlendyBuy E-Commerce</h4>
+                  <img src="BlendBuy_logo.jpg" alt="BlendyBuy logo" class="img-fluid" />
                   <p>
-                    This a recipe landing page that i build during my SheCodes
-                    Responsive Workshop. It was build using HTML, CSS and
-                    BOOTSTRAP. This landing page is fully responsive.
+                    BlendBuy is a responsive e-commerce platform built with Django, offering seamless product browsing, cart management, and secure checkout.
+                    
                   </p>
-                  <a href="https://github.com/Tarirohope" class="align-center"> <i class="fab fa-github github me-1"></i></a>
-                  <a
-                    class="project-link"
-                    href="Https://jovial-vacherin-dd0dd7.netlify.app"
-                    >Recipe landing page</a
-                  >
+                  <a href="https://github.com/Tarirohope/E-COMMERCE.git" class="align-center"> <i class="fab fa-github github me-1"></i></a>
                 </div>
               </div>
             <div class="card">
@@ -151,12 +146,12 @@
           <div class="row d-flex justify-content-center">
             <div class="card">
               <div class="card-body">
-                <h4 class="card-title">React Javascript Weather App</h4>
+                <h4 class="card-title">React JS Weather App</h4>
                 <p>
                   This is a weather app that I build using React.js a framework
                   for Javascipt
                 </p>
-                <a href="https://github.com/Tarirohope"> <i class="fab fa-github github me-1"></i></a>
+                <a href="https://github.com/Tarirohope/20-june-react.git"> <i class="fab fa-github github me-1"></i></a>
                 <a
                   class="project-link"
                   href="https://ptkapuyanyika.netlify.app/"
@@ -181,34 +176,7 @@
             </div>
           </div>
         </div>
-        <div class="row d-flex justify-content-center">
-          <div class="card">
-            <div class="card-body">
-              <h4 class="card-title">BlendyBuy E-commerce</h4>
-              <img src="BlendBuy_logo.jpg" alt="BlendyBuy logo">
-              <p>
-               BlendBuy is a responsive e-commerce platform built with Django, offering seamless product browsing, cart management, and secure checkout. 
-              </p>
-              <a href="https://github.com/Tarirohope"> <i class="fab fa-github github me-1"></i></a>
-              <a
-                class="project-link"
-                href="https://github.com/Tarirohope/E-COMMERCE.git"
-                >BlendyBuy </a
-              >
-            </div>
-          </div>
-          <div class="card">
-            <div class="card-body">
-              <div class="card-title"><h4>Coffee Shop Landing Page</h4></div>
-              <a href="https://github.com/Tarirohope"> <i class="fab fa-github github me-1"></i></a>
-              <a
-                class="project-link"
-                href="Https://glistening-kulfi-ede15f.netlify.app"
-                >Coffee Shop</a
-              >
-            </div>
-          </div>
-        </div>
+        
       <h4 class="mt-4 text-center" id="education">
         The Techonology And Tools That I have Practical Experience With:
       </h4>
@@ -222,14 +190,23 @@
         <div class="col-sm-3 m-2"><i class="fab fa-github github"></i></div>
         <div class="col-sm-3 m-2"><i class="fab fa-python python"></i></div>
         <div class="col-sm-3 m-2"><i class="fab fa-react react"></i></div>
-        <div class="col-sm-3 m-2"><i class="fab fa-react react"></i></div>
-        <div class="col-sm-3 m-2"><i class="fab fa-react react"></i></div>
       </div>
 
       <div class="certificates mt-3 mb-1">
-        <h3>Certificates</h3>
-      </div>
-      <div class="container">
+        <button id="toggleCertificates"><h3> Certificates</h3></button>
+        <div id="certificateList" class="hidden">
+      <div class="container" id="certificates">
+        <div class="row">
+          <div class="col-sm-4">
+            <img src="plp.png" class="img-fluid certificate" alt="" />
+          </div>
+          <div class="col-sm-4">
+            <img src="rita.png" class="img-fluid certificate" alt="" />
+          </div>
+          <div class="col-sm-4">
+            <img src="responsive.png" class="img-fluid certificate" alt="" />
+          </div>
+        </div>
         <div class="row">
           <div class="col-sm-4">
             <img src="intro.png" class="img-fluid certificate" alt="" />
@@ -242,7 +219,9 @@
           </div>
         </div>
       </div>
-      <div class="containe">
+      </div>
+      </div>
+      <div class="container mt-3">
         <div class="row work-enquiry p-3">
           <div class="col-sm-6">
             <h1 id="contact">Work Enquiry</h1>
@@ -276,5 +255,8 @@
       </div>
       </div>
       </div>
+      </div>
+      <script src="index.js">
+      </script>
   </body>
 </html>
