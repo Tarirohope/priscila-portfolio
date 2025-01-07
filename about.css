@@ -68,7 +68,7 @@ project {
 .certificate {
   width: 300px;
 }
-.certificates {
+.education, .certificates, .achievements, .resume {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -136,7 +136,7 @@ project {
   margin: 20px 0;
 }
 
-#toggleCertificates {
+#toggleEducation, #toggleCertificates, #toggleAchievements {
   background-color: lightpink;
   color: white;
   padding: 10px 20px;
@@ -148,7 +148,8 @@ project {
   
 }
 
-#toggleCertificates:hover {
+#toggleEducation:hover, #toggleCertificates:hover,
+#toggleAchievements:hover {
   background-color: navy;
 }
 
