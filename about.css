@@ -189,9 +189,10 @@ project {
   }
   .greeting{
     line-height: 1;
+    font-size: small;
   }
   .resume{
-    font-size: small;
+    font-size: xx-large;
   }
   .card {
     width: 400px;
