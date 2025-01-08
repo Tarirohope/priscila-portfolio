@@ -188,7 +188,7 @@ project {
     text-align: center;
   }
   .greeting{
-    line-height: 2;
+    line-height: 1.8;
     font-size: small;
   }
   .resume{
