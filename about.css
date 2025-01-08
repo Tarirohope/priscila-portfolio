@@ -22,6 +22,7 @@ img {
     font-optical-sizing: auto;
     font-weight: 400;
     font-style: normal;
+     
   }
 .ptk {
   border-radius: 900px;
@@ -62,7 +63,7 @@ img {
   font-size: 18px;
 }
 .project-link {
-  background-color: lightpink;
+  background: linear-gradient(300deg, #ff994f, #fa6d86);
   color: black;
   text-align: center;
   padding: 5px 5px;
@@ -77,7 +78,7 @@ img {
   border-radius: 6px;
   text-align: center;
 }
-project {
+.project {
   border: 1px solid grey;
   border-radius: 6px;
   padding: 20px;
@@ -155,11 +156,11 @@ project {
 }
 
 #toggleEducation, #toggleCertificates, #toggleAchievements {
-  background-color: lightpink;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
   color: white;
   padding: 10px 20px;
-  border: lightpink;
-  border-radius: 6px;
+  border: none;
+  border-radius: 50px;
   cursor: pointer;
   font-size: 16px;
   align-self: center;
@@ -168,7 +169,79 @@ project {
 
 #toggleEducation:hover, #toggleCertificates:hover,
 #toggleAchievements:hover {
-  background-color: navy;
+  background-color: lightpink;
+}
+.contact-container{
+  /*display: flex;
+  align-items: start;
+  /*justify-content: space-evenly;*/
+}
+.contact {
+  display: flex;
+  flex-direction: column;
+  align-items: start;
+  gap: 20px;
+}
+.contact-title h2 {
+  font-weight: 600;
+  color: white;
+  font-size: 40px;
+  margin-bottom: 5px;
+}
+.contact-title hr{
+  border: none;
+  width: 120px;
+  height: 5px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  border-radius: 10px;
+  margin-bottom: 20px;
+}
+.contact-inputs{
+  width: 400px;
+  height: 50px;
+  outline: none;
+  padding-left: 25px;
+  font-weight: 500;
+  background-color: white;
+  border-radius: 30px;
+}
+.contact textarea {
+  height: 140px;
+  padding-top: 15px;
+  border-radius: 20px;
+
+}
+.contact-inputs:focus{
+  border: 2px solid #ff994f;
+
+}
+.contact-inputs::placeholder{
+  color: #a9a9a9;
+}
+.contact button {
+  display: flex;
+  align-items: center;
+  padding: 15px 30px;
+  font-size: 16px;
+  color: white;
+  gap: 10px;
+  border: none;
+  border-radius: 50px;
+  background: linear-gradient(270deg, #ff994f, #fa6d86);
+  cursor: pointer;
+}
+.footer-links ul {
+  margin-top: 40px;
+  list-style: none;
+  text-align: start;
+  text-decoration: none;
+  
+  
+}
+.footer-links li a{
+  text-decoration: none;
+  color: white;
+  font-size: x-large;
 }
 
 
