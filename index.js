@@ -34,3 +34,10 @@ document.getElementById("toggleAchievements").addEventListener("click", function
         this.textContent = "Show Achievements";
     }
 });
+let typed = new Typed(".auto-input", {
+    strings: ["Priscila Kapuyanyika", "a Fullstack Web Developer", "a Python Developer", "a React Developer"],
+    typeSpeed:100,
+    backSpeed:100,
+    loop:true
+
+})

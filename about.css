@@ -1,3 +1,4 @@
+
 body {
   font-family: "Nunito", sans-serif;
   font-size: auto;
@@ -16,6 +17,18 @@ img {
   width: 250px;
   margin: 30px auto;
 }
+.greeting {
+    font-family: "Playwrite VN", serif;
+    font-optical-sizing: auto;
+    font-weight: 400;
+    font-style: normal;
+  }
+.ptk {
+  border-radius: 900px;
+  width: 45px;
+  border-color: black;
+} 
+
 .myself {
   border-radius: 10px;
   width: 350px;
@@ -28,8 +41,13 @@ img {
 }
 .card {
   width: 400px;
-  height: 600px;
+  height: 400px;
   margin: 10px 10px;
+}
+.card img {
+  width: 150px;
+  display: flex;
+  justify-content: center;
 }
 .work-enquiry {
   background-color: black;
@@ -168,5 +186,11 @@ project {
   }
   .technologies {
     text-align: center;
+  }
+  .greeting{
+    line-height: 1.5rem;
+  }
+  .resume{
+    font-size: xx-large;
   }
 }
