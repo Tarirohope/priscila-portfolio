@@ -1,5 +1,5 @@
 
-body {
+.container {
   font-family: "Nunito", sans-serif;
   font-size: auto;
   background-color: #fff6ee;
@@ -52,8 +52,10 @@ img {
 }
 .work-enquiry {
   background-color: black;
-  border-radius: 6px;
+  border-radius: none;
+  width:auto;
   color: white;
+  margin-bottom: 20px;
 }
 .about-section h1 {
   font-size: 64px;
