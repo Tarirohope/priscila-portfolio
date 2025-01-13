@@ -57,11 +57,12 @@ img {
   color: white;
   margin-bottom: 20px;
 }
-.about-section h1 {
+.about-section h2 {
   font-size: 64px;
   line-height: 80px;
+  color: #f48739;
 }
-.about-section h2 {
+.about-section h3 {
   font-size: 18px;
 }
 .project-link {
@@ -75,8 +76,6 @@ img {
 }
 .technologies {
   background-color: #f0f1f3;
-  margin: 10px auto;
-  padding: 10px;
   border-radius: 6px;
   text-align: center;
 }
@@ -282,4 +281,10 @@ img {
   font-weight: 500;
   background-color: white;
   border-radius: 30px;
+}
+.about-section h2 {
+  font-size: 40px;
+  line-height: 50px;
+  color: #f48739;
+}
 }
